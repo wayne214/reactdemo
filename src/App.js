@@ -8,6 +8,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
+          <input placeholder={'请输入内容'} onChange={(value)=> console.log('输入内容', value)}/>
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
@@ -19,6 +20,8 @@ class App extends Component {
           >
             Learn React
           </a>
+          <h1 className='title'>这是标题</h1>
+          <text className='desc'>我的第一个React项目</text>
         </header>
       </div>
     );
